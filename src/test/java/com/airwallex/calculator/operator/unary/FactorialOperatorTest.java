@@ -32,5 +32,13 @@ public class FactorialOperatorTest {
         FactorialOperator operator = new FactorialOperator();
         Assertions.assertEquals(Double.NaN, operator.calc(a.getValue()));
     }
+    
+    @Test
+    public void testFactorial4() {
+        RealNumber a = new RealNumber(171);
+
+        FactorialOperator operator = new FactorialOperator();
+        Assertions.assertEquals(Double.POSITIVE_INFINITY, operator.calc(a.getValue()));
+    }
 
 }
