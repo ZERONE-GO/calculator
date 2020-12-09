@@ -1,8 +1,8 @@
 package com.airwallex.calculator.operator.action;
 
-import com.airwallex.calculator.main.component.NumberStack;
-import com.airwallex.calculator.main.component.OperatorStack;
-import com.airwallex.calculator.main.component.RealNumber;
+import com.airwallex.calculator.component.NumberStack;
+import com.airwallex.calculator.component.OperatorStack;
+import com.airwallex.calculator.component.RealNumber;
 import com.airwallex.calculator.operator.Operator;
 import com.airwallex.calculator.operator.error.ErrorMessage;
 

@@ -4,8 +4,8 @@ import java.util.StringTokenizer;
 
 import org.apache.commons.lang3.StringUtils;
 
-import com.airwallex.calculator.main.component.NumberStack;
-import com.airwallex.calculator.main.component.OperatorStack;
+import com.airwallex.calculator.component.NumberStack;
+import com.airwallex.calculator.component.OperatorStack;
 import com.airwallex.calculator.operator.Operator;
 import com.airwallex.calculator.operator.factory.OperatorFactory;
 

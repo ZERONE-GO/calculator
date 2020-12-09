@@ -4,7 +4,7 @@ import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
-import com.airwallex.calculator.main.component.RealNumber;
+import com.airwallex.calculator.component.RealNumber;
 
 @SpringBootTest
 public class MultiplyOperatorTest {
