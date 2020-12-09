@@ -1,4 +1,4 @@
-package com.airwallex.calculator.main.component;
+package com.airwallex.calculator.component;
 
 import java.util.Stack;
 

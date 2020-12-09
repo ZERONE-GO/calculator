@@ -1,11 +1,11 @@
-package com.airwallex.calculator.main.component;
+package com.airwallex.calculator.component;
 
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 import org.mockito.Mockito;
 import org.springframework.boot.test.context.SpringBootTest;
 
-import com.airwallex.calculator.main.component.OperatorStack;
+import com.airwallex.calculator.component.OperatorStack;
 import com.airwallex.calculator.operator.Operator;
 
 @SpringBootTest

@@ -1,7 +1,7 @@
 package com.airwallex.calculator.operator;
 
-import com.airwallex.calculator.main.component.NumberStack;
-import com.airwallex.calculator.main.component.OperatorStack;
+import com.airwallex.calculator.component.NumberStack;
+import com.airwallex.calculator.component.OperatorStack;
 
 public abstract class Operator {
 

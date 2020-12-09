@@ -7,9 +7,9 @@ import org.junit.jupiter.api.Test;
 import org.mockito.Mockito;
 import org.springframework.boot.test.context.SpringBootTest;
 
-import com.airwallex.calculator.main.component.NumberStack;
-import com.airwallex.calculator.main.component.OperatorStack;
-import com.airwallex.calculator.main.component.RealNumber;
+import com.airwallex.calculator.component.NumberStack;
+import com.airwallex.calculator.component.OperatorStack;
+import com.airwallex.calculator.component.RealNumber;
 import com.airwallex.calculator.operator.action.NumberOperator;
 import com.airwallex.calculator.operator.error.ErrorMessage;
 
