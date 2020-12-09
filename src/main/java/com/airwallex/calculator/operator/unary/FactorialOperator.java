@@ -15,6 +15,11 @@ public class FactorialOperator extends UnaryOperator {
             return Double.NaN;
         }
 
+        // 171 ! = Infinity
+        if (num > 170) {
+            return Double.POSITIVE_INFINITY;
+        }
+
         int integer = (int) num;
         double result = 1.0;
         for (int i = 1; i <= integer; i++) {
